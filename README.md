@@ -16,13 +16,6 @@
 
 This project is an interactive map-based application to visualize earthquake data from the USGS. It uses the Leaflet.js library to display earthquakes around the world, with each earthquake represented as a circle marker sized and colored based on its magnitude and depth. Users can hover over markers for additional information on the earthquake's location, magnitude, and depth.
 
-## Table of Contents
-1. [Getting Started](#getting-started)
-2. [Installation](#installation)
-3. [Usage](#usage)
-4. [Contributor](#contributor)
-5. [References](#references)
-
 ## Getting Started
 ### Prerequisites
 #### Technical Skills
