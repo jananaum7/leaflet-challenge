@@ -1,0 +1,57 @@
+/* Reset and map dimensions */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+#map {
+  height: 100%; /* Full screen height for the map */
+}
+
+/* Legend styling */
+.info.legend {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  line-height: 20px;
+  color: #333;
+}
+
+.info.legend strong {
+  font-size: 16px;
+  margin-bottom: 5px;
+  display: block;
+  text-align: center;
+}
+
+.info.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  opacity: 0.7;
+  border-radius: 50%; /* Make the legend color indicators circular */
+}
+
+/* Tooltip styling */
+.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 100px;
+  height: auto;
+  padding: 5px;
+  font-size: 12px;
+  background: lightsteelblue;
+  border-radius: 8px;
+  pointer-events: none;
+  opacity: 0; /* Hidden initially */
+}
+
+/* Show tooltip on hover */
+.tooltip.show {
+  opacity: 1; /* Visible when shown */
+}
